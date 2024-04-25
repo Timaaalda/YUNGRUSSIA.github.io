@@ -1,0 +1,329 @@
+/* VIDEO TEAM */
+.videoteam {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoteam>video {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.meet-text {
+    color: aliceblue;
+    z-index: 2;
+}
+
+/* *** */
+
+/* NAV */
+.nav-link:hover {
+    background-color: rgb(225, 225, 225);
+    color: rgb(2, 134, 211);
+}
+
+/* *** */
+
+/* CARD TEAM */
+.nav-item {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.card {
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(182, 182, 182);
+}
+
+
+.logo-media>a {
+    margin: 50px;
+}
+
+.vk-bw-logo {
+    width: 50px;
+}
+
+.vk-bw-logo:hover {
+    width: 59px;
+}
+
+.yt-bw-logo {
+    width: 50px;
+}
+
+.yt-bw-logo:hover {
+    width: 59px;
+}
+
+.inst-bw-logo {
+    width: 35px;
+}
+
+.inst-bw-logo:hover {
+    width: 40px;
+}
+
+/* *** */
+
+@media(width>2000px) {
+
+    .videoteam {
+        height: 60vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videoteam>video {
+        height: 60vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    section {
+        font-size: 1.85rem;
+    }
+
+    .meet-text>h1 {
+        font-size: 4.5rem;
+    }
+
+    .card-title {
+        font-size: 2.5rem;
+    }
+
+    .vk-bw-logo {
+        width: 78px;
+    }
+
+    .vk-bw-logo:hover {
+        width: 95px;
+    }
+
+    .yt-bw-logo {
+        width: 80px;
+    }
+
+    .yt-bw-logo:hover {
+        width: 95px;
+    }
+
+    .inst-bw-logo {
+        width: 60px;
+    }
+
+    .inst-bw-logo:hover {
+        width: 70px;
+    }
+}
+
+@media (width<1030px) {
+
+    .meet-text>h1 {
+        font-size: 1.8rem;
+    }
+
+    .videoteam {
+        height: 60vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videoteam>video {
+        height: 60vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .card-text {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    .card-body {
+        margin-left: 7px;
+    }
+
+    .vk-bw-logo {
+        width: 30px;
+
+    }
+
+    .yt-bw-logo {
+        width: 30px;
+
+    }
+
+    .inst-bw-logo {
+        width: 23px;
+
+    }
+
+    .logo-media>a {
+        margin-bottom: 20px;
+    }
+}
+
+@media (width<770px) {
+
+    .videoteam {
+        height: 45vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videoteam>video {
+        height: 45vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .meet-text>h1 {
+        font-size: 1.3rem;
+    }
+
+    .tab-content {
+        margin: 20px;
+    }
+}
+
+@media (width<450px) {
+    .videoteam {
+        height: 25vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videoteam>video {
+        height: 25vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .meet-text {
+        padding-left: 0px;
+    }
+
+    .meet-text>h1 {
+        font-size: 0.75rem;
+
+    }
+
+    section {
+        font-size: 0.85rem;
+    }
+
+    .vk-bw-logo {
+        width: 30px;
+        margin: 0px;
+    }
+
+    .yt-bw-logo {
+        width: 30px;
+        margin: 0px;
+    }
+
+    .inst-bw-logo {
+        width: 23px;
+        margin: 0px;
+    }
+
+    .logo-media>a {
+        margin: 10px;
+    }
+}
+
+
+@media (width<400px) {
+
+    .videoteam {
+        height: 21vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videoteam>video {
+        height: 21vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .meet-text>h1 {
+        font-size: 0.7rem;
+
+    }
+
+}
+
+@media (width<350px) {
+    .videoteam {
+        height: 19vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videoteam>video {
+        height: 19vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .meet-text>h1 {
+        font-size: 0.5rem;
+    }
+}

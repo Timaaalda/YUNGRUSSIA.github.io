@@ -1,0 +1,129 @@
+/* VIDEO */
+.video-text {
+    font-size: 2.5rem;
+}
+
+.video-text>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* *** */
+
+/* CARD TOUR AND CARD MAIN */
+.card {
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(26, 27, 28);
+}
+
+.cities>a:hover {
+    font-size: 1.15rem;
+    background-color: rgb(200, 200, 200)
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-tour {
+    width: 18rem;
+    margin-inline: auto;
+}
+
+.card-tour:hover {
+    background-color: rgb(200, 200, 200)
+}
+
+.a-logo>img {
+    width: 35px;
+}
+
+/* *** */
+
+/* BUTTONS */
+.btn-primary:hover {
+    color: black;
+    border-color: rgb(161, 194, 244);
+    background-color: rgb(161, 194, 244);
+}
+
+.btn-primary {
+    color: black;
+    border-color: rgb(197, 218, 249);
+    background-color: rgb(197, 218, 249);
+}
+
+.a-logo>img:hover {
+    width: 40px;
+}
+
+/* *** */
+
+@media(width>2000px) {
+
+    section {
+        font-size: 1.85rem;
+    }
+
+    .video-text {
+        font-size: 5rem;
+    }
+
+    .card-title {
+        font-size: 3rem;
+    }
+
+    .card-tour {
+        width: 30rem;
+    }
+
+    .btn-primary {
+        font-size: 1.85rem;
+    }
+
+    .a-logo>img {
+        width: 50px;
+    }
+
+}
+
+@media (width<1030px) {
+
+    .card-tour {
+        width: 17rem;
+    }
+}
+
+@media (width<450px) {
+
+    .card-main {
+        padding: 10px;
+    }
+
+    .video-text>a>span {
+        font-size: 1.5rem;
+    }
+
+    section {
+        font-size: 0.85rem;
+    }
+
+
+}
+
+@media (width<390px) {
+
+
+    .video-text>a>span {
+        font-size: 1.1rem;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+}

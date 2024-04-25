@@ -1,0 +1,182 @@
+
+body {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+}
+/* NAVBAR */
+.navbar {
+  background-color: rgb(255, 255, 255);
+  /* border-bottom-style: solid;
+    border-bottom-color: rgb(124, 207, 255);
+    border-bottom-width: 0.5px ; */
+}
+
+.nav-item a:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.nav-item{
+  margin-left:5px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(44, 148, 207);
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-inline: 5px;
+}
+
+.navbar-brand > img {
+  width: 60px;
+}
+
+.navbar-login{
+  padding: 0;
+  margin-inline: 5px;
+}
+
+.navbar-login>img {
+  width: 30px;
+}
+
+.navbar-shop {
+  padding: 0;
+  margin-inline: 5px;
+}
+
+.navbar-shop>img {
+  width: 30px;
+}
+
+.navbar-toggler {
+  background-color: rgb(150, 217, 255);
+  margin-right: 10px;
+}
+
+/* **** */
+
+/* footer */
+.footer {
+  background-color: rgb(39, 39, 39);
+}
+
+.footer-text {
+  background-color: rgb(39, 39, 39);
+  margin: 0px;
+}
+
+.media-links {
+  background-color: rgb(39, 39, 39);
+}
+
+.footer-text > p {
+  margin: 1em;
+  color: aliceblue;
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > .container-fluid > .row {
+  height: 60px;
+}
+
+.footer-logo {
+  margin: 10px;
+}
+
+.media-links > a > img {
+  text-decoration: none;
+  color: black;
+}
+
+.ft-inst {
+  width: 30px;
+  margin-inline: 1.5em;
+}
+
+.ft-vk {
+  width: 40px;
+  margin-inline: 1.5em;
+}
+
+.ft-yt {
+  width: 40px;
+  margin-inline: 1.5em;
+}
+
+section{
+  background-image: url(../images/bgyr.svg);
+  background-repeat: repeat;
+}
+
+@media (width>2000px) {
+  header {
+    font-size: 1.85rem;
+  }
+
+  footer {
+    font-size: 1.85rem;
+  }
+
+  .navbar-brand > img {
+    width: 110px;
+  }
+
+  .ft-inst {
+    width: 40px;
+  }
+
+  .ft-vk {
+    width: 50px;
+  }
+
+  .ft-yt {
+    width: 50px;
+  }
+}
+
+@media (width<990px) {
+  .navbar-toggler-icon {
+    font-size: 15px;
+  }
+
+  .navbar-toggler {
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(150, 217, 255);
+  }
+}
+
+@media (width<450px) {
+  .ft-inst {
+    width: 25px;
+  }
+
+  .ft-vk {
+    width: 30px;
+  }
+
+  .ft-yt {
+    width: 30px;
+  }
+
+  header {
+    font-size: 0.85rem;
+  }
+
+  footer {
+    font-size: 0.85rem;
+  }
+}

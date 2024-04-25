@@ -1,0 +1,128 @@
+.bgvideo {
+    height:80vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo>video {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.video-text{
+    color: aliceblue;
+    z-index: 2;
+}
+
+@media(width<1050px) {
+    .bgvideo {
+        height: 67vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bgvideo>video {
+        height: 67vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+}
+
+@media(width<770px){
+    .bgvideo {
+            height: 50vh;
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .bgvideo>video {
+            height: 50vh;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            z-index: 1;
+        }
+}
+
+@media(width<450px) {
+    .bgvideo {
+        height: 27vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bgvideo>video {
+        height: 27vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+}
+
+@media(width<390px) {
+    .bgvideo {
+        height: 23vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bgvideo>video {
+        height: 23vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+}
+
+@media(width<340px) {
+    .bgvideo {
+        height: 21vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bgvideo>video {
+        height: 21vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+}

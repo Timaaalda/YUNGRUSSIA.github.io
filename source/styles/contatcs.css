@@ -1,0 +1,120 @@
+/* BANNER */
+.banner {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner>img {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* *** */
+
+
+/* CONTACTS */
+
+.contacts-text>p>a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts-text>p>a:hover {
+    font-size: 1.15rem;
+    background-color: rgb(200, 200, 200)
+}
+
+/* *** */
+
+/* CONTACTS LOGO */
+.logo-media>a {
+    margin: 30px;
+}
+
+.vk-bw-logo {
+    width: 50px;
+}
+
+.vk-bw-logo:hover {
+    width: 59px;
+}
+
+.yt-bw-logo {
+    width: 50px;
+}
+
+.yt-bw-logo:hover {
+    width: 59px;
+}
+
+.inst-bw-logo {
+    width: 35px;
+}
+
+.inst-bw-logo:hover {
+    width: 40px;
+}
+
+/* *** */
+
+@media (width<450px) {
+    .banner {
+        height: 50vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner>img {
+        height: 50vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    section {
+        font-size: 0.85rem;
+    }
+
+    .logo-media>a {
+        margin: 10px;
+    }
+
+    .vk-bw-logo {
+        width: 30px;
+    }
+
+    .vk-bw-logo:hover {
+        width: 35px;
+    }
+
+    .yt-bw-logo {
+        width: 30px;
+    }
+
+    .yt-bw-logo:hover {
+        width: 35px;
+    }
+
+    .inst-bw-logo {
+        width: 20px;
+    }
+
+    .inst-bw-logo:hover {
+        width: 22px;
+    }
+}
