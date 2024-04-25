@@ -68,7 +68,7 @@
 
 @media (width<450px) {
     .banner {
-        height: 50vh;
+        height: 45vh;
         width: 100%;
         position: relative;
         display: flex;
@@ -77,7 +77,7 @@
     }
 
     .banner>img {
-        height: 50vh;
+        height: 45vh;
         width: 100%;
         position: absolute;
         top: 0;
